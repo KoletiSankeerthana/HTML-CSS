@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube.com Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .search-bar-container {
+            width: 40%;
+            display: flex;
+            justify-content:left;
+            
+        }
+        .search-bar {
+            font-size: 18px;
+            width: 50%;
+            padding: 8px;
+        }
+        .video-preview-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .video-preview {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff;
+        }
+        .thumbnail-row {
+            display: flex;
+        }
+        .thumbnail {
+            width: 100%;
+            display: block;
+        }
+        .video-info-grid {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            padding: 10px;
+        }
+        .channel-picture {
+            width: 50px;
+            height: 50px;
+        }
+        .profile-picture {
+            width: 100%;
+            border-radius: 50%;
+        }
+        .video-info {
+            padding-left: 10px;
+        }
+        .video-title {
+            margin: 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .video-author {
+            margin: 5px 0;
+            color: #555;
+        }
+        .video-stats {
+            margin: 5px 0;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-bar-container">
+        <input class="search-bar" type="text" placeholder="Search">
+    </div>
+    <div class="video-preview-container">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="Thumbnail 1">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel_pictures/channel-1.jpeg" alt="Channel 1">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="Thumbnail 2">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel_pictures/channel-1.jpeg" alt="Channel 2">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Add more video-preview divs here as needed -->
+    </div>
+    <div class="search-bar-container">
+        <input class="search-bar" type="text" placeholder="Search">
+    </div>
+    <div class="video-preview-container">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="Thumbnail 1">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel_pictures/channel-1.jpeg" alt="Channel 1">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="Thumbnail 2">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel_pictures/channel-1.jpeg" alt="Channel 2">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Add more video-preview divs here as needed -->
+    </div>
+    <div class="search-bar-container">
+        <input class="search-bar" type="text" placeholder="Search">
+    </div>
+    <div class="video-preview-container">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="Thumbnail 1">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel_pictures/channel-1.jpeg" alt="Channel 1">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/thumbnail-1.webp" alt="Thumbnail 2">
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel_pictures/channel-1.jpeg" alt="Channel 2">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Talking tech and AI with Google CEO Sundar Pichai!</p>
+                    <p class="video-author">Marques Brownlee</p>
+                    <p class="video-stats">3.4M views &#183; 6 months ago</p>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Add more video-preview divs here as needed -->
+    </div>
+</body>
+</html>
